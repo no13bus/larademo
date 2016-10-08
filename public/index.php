@@ -35,6 +35,13 @@ require __DIR__.'/../bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+
+// if (getenv('APP_ENV')=='local') {
+// $app->loadEnvironmentFrom('.env.local');
+// } else {
+// $app->loadEnvironmentFrom('.env');
+// }
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application

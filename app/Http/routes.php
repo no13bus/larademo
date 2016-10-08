@@ -29,3 +29,7 @@ Route::get('user/{name?}', function ($name = 'JellyBool') {
     return 'Hello '.$name;
 });
 
+//隐试路由
+Route::controller('article', 'ArticleController');
+
+Route::resource('city', 'CityController');
